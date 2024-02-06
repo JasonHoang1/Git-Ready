@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 
 public class project0 {
@@ -13,7 +13,7 @@ public class project0 {
         boolean disability = false;
         boolean yearNumber = false;
 
-        System.out.println("enter : \n1 for freshman\n2 for sophomore\n3 for junior\n4 for senior ");
+        System.out.println("enter your cpp class year: \n1 for freshman\n2 for sophomore\n3 for junior\n4 for senior ");
         Scanner scnr = new Scanner(System.in);
         
         year = scnr.nextInt();
